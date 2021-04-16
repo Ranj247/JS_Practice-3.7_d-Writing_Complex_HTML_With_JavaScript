@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Writing Complex HTML With JavaScript</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    
+        <h1>
+            Using template literals to write complex HTML with JavaScript.
+        </h1>
+        <p>
+            It allows to create complex HTML structures in your JavaScript code which can then be inserted into the DOM.
+        </p>
+        <p>
+            It's best to write the structure of the HTML as a string and just use JavaScript to keep appending to the
+            HTML string until it's complete, then set the document or the body's innerHTML property to your long HTML
+            string.
+        </p>
+        <p>
+            To do this, you will need to revisit and become comfortable with the concept of template literals.
+            Luckily this is a simple concept. The only difference between a template literal and a string is the use of
+            backticks
+            instead of single or double quotes. Anything that comes from JavaScript, such as variables, get injected
+            into
+            the string
+            using the $ operator and a set of curly braces, like this:
+        </p>
+        let myVariable = 123;
+        <br>
+        let myLiteral = `The value of my variable is ${myVariable}.`
+        <p>
+            The above will render "The value of my variable is 123." when evaluated.
+            You can use this concept to write complex HTML structures like tables, lists, divs filled with lots of
+            images or anything else you can imagine,
+            by combining the concept of a template literal with the concept of iteration, data structures and JavaScript
+            variables.
+            The way developers usually tackle this is to begin with an empty string and then append HTML to it step by
+            step in a loop or using some other JavaScript logic.
+        </p>
+    
+    <div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
