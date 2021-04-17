@@ -2,15 +2,15 @@
 let fruits = [
     {
       name: 'Apple',
-      image: 'images/apple.png',
+      image: 'images/apple.jpg',
     },
     {
       name: 'Orange',
-      image: 'images/orange.png',
+      image: 'images/orange.jpg',
     },
     {
       name: 'Banana',
-      image: 'images/banana.png',
+      image: 'images/banana.jpg',
     },
   ];
   
